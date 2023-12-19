@@ -1,0 +1,5 @@
+import webbrowser
+website = input("search website: ")
+if website == "code":
+    code = input("search: ")
+    webbrowser.open("http://www.nhentai.net/g/" + code)
